@@ -1,0 +1,438 @@
+html, body { height:100%; }
+body{font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:13px; color:#717171;}
+
+@font-face {
+    font-family: 'colaboratelightregular';
+    src: url('Font/colablig-webfont.eot');
+    src: url('Font/colablig-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Font/colablig-webfont.woff') format('woff'),
+         url('Font/colablig-webfont.ttf') format('truetype'),
+         url('Font/colablig-webfont.svg#colaboratelightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'titilliumtext';
+    src: url('Font/titilliumtext25l-webfont.eot');
+    src: url('Font/titilliumtext25l-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Font/titilliumtext25l-webfont.woff') format('woff'),
+         url('Font/titilliumtext25l-webfont.ttf') format('truetype'),
+         url('Font/titilliumtext25l-webfont.svg#titilliumtext25l999_wt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#header{
+  z-index:1; 
+  background: url(images/bg_header.png) repeat-x;
+  width:100%;
+  display: block;
+  position: relative;
+  height: 160px;
+}
+#bg_logo{
+  background: url(images/logo_principal.png) no-repeat;
+  width: 236px;
+  height: 165px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 6;
+}
+#bg_logo a:link, #bg_logo a:visited, #bg_logo a:active, #bg_logo a:hover{
+  display: block;
+  width: 230px;
+  height: 160px;
+  text-decoration: none;
+}
+#cont-main-nav{
+   position:absolute;
+   left: 250px;
+   top: 40px;
+   height: 51px;
+   width: 724px;
+}
+#main-nav{
+  margin: 0;
+  padding: 0;
+}
+#main-nav li{
+  float: left;
+  padding: 5px 10px;
+  font-family: 'colaboratelightregular'; 
+  color: #555454;
+  font-size: 13px;
+  font-weight: bold;
+}
+#main-nav li a{
+  font-family: 'colaboratelightregular'; 
+  color: #555454;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0px 10px 0px 0px;
+}
+#container{
+  z-index:1; 
+  width: 100%;
+  display: block;
+  position: relative;
+  height: 595px;
+  overflow: hidden;
+}
+section{
+     float: left;
+    height: auto;
+    position: relative;
+}
+#container_slide{
+  height: 100%;
+    left: 0;
+    position: absolute;
+}
+/* FOOTER */
+#footer{
+  z-index: 4; 
+  width:100%;
+  display: block;
+  text-align:center; 
+  background: url(images/bg_footer.png) repeat-x; 
+  padding:8px 0; 
+  height: 29px;
+}
+.class_home{
+  background: url(../images/banner_home.jpg) no-repeat;
+  width: 100%;
+  height: 800px;
+  z-index: 1;
+}
+.class_beneficios{
+  background: url(../images/banner_beneficios.jpg) no-repeat;
+  width: 100%;
+ height: 800px;
+  z-index: 1;
+}
+.class_resenia{
+  background: url(../images/banner_resena.jpg) no-repeat;
+  width: 100%;
+  height: 800px;
+  z-index: 1;
+}
+.class_plan_estudios{
+  background: url(../images/banner_plan_estudios.jpg) no-repeat;
+  width: 100%;
+  height: 800px;
+  z-index: 1;
+}
+.class_contactanos{
+  background: url(../images/banner_contactenos.jpg) no-repeat;
+  width: 100%;
+  height: 800px;
+  z-index: 1;
+}
+/* End of FOOTER */
+
+.cont_center{
+  margin: 0 auto;
+  width: 960px;
+  display: block;
+  position: relative;
+  height: auto;
+}
+.cont_center2{
+    margin: 0 auto;
+  width: 960px;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  height: auto;
+}
+.btn_facebook{
+  background: url(images/logo_facebook.png);
+  display: block;
+  width: 72px;
+  height: 17px;
+  position: absolute;
+  right: 50px;
+}
+.text{
+  float: right;
+  width: 440px;
+}
+.text2{
+  float: left;
+  width: 460px;
+}
+.clear{
+  clear: both;
+}
+#container h1{
+  margin: 0px 0px 8px 0px;
+}
+#container .title{
+  color: #3c393d;
+  font-family: 'colaboratelightregular';
+  font-size: 38px;
+  font-weight: bold;
+}
+#container .subtitle{
+   color: #845e5c;
+  font-family: 'colaboratelightregular';
+  font-size: 22px;
+  font-weight: bold;
+  margin: 15px 0px !important;
+}
+#container .subtitle2{
+  color: #b0736f;
+  font-family: times new roman;
+  font-size: 22px; 
+  text-align: center;
+  margin: 0px !important; 
+}
+#container .subtitle3{
+  color: #b0736f;
+  font-size: 25px;
+  font-family: times new roman;  
+  text-align: center;
+  margin: 0px 0px 30px 0px;
+}
+.padding_text{
+  padding: 40px 0px 0px 0px;
+}
+.padding_text2{
+  padding: 20px 0px 0px 0px;
+}
+#container .lin1{
+  font-family: times new roman;
+  font-size: 37px;
+  color: #b0736f;
+  display: block;
+
+}
+#container .lin2{
+  display: block;
+  font-family: times new roman;
+  font-size: 28px;
+  color: #b0736f;
+
+}
+#container .lin3{
+  display: block;
+  font-family: times new roman;
+  font-size: 17px;
+  color: #b0736f;
+}
+
+#container .lin4{
+  display: block;
+  font-family: times new roman;
+  font-size: 26px;
+  color: #b0736f;
+}
+#container .lin5{
+  display: block;
+  font-family: times new roman;
+  font-size: 24px;
+  color: #b0736f;
+}
+#container .lin6{
+  display: block;
+  font-family: times new roman;
+  font-size: 17px;
+  color: #b0736f;
+}
+#container .texto_home{
+  font-family: 'colaboratelightregular';
+  font-size: 19px;
+  color: #3c393d;
+}
+#footer p{
+  color: #f1f1f1;
+  font-family: times new roman;
+  font-size: 12px;
+}
+#footer a:link, #footer a:visited, #footer a:active{
+  color: #f1f1f1;
+  font-family: times new roman;
+  font-size: 12px;
+  text-decoration: none; 
+}
+#footer a:hover{
+  text-decoration: underline;
+}
+.beneficios li{
+  font-family: 'colaboratelightregular';
+  font-size: 14px;
+  display: block;
+  background: url(images/vineta.png) no-repeat 0 2px;
+  padding: 0px 0px 0px 15px;
+  margin: 0px 0px 5px 0px;
+  color: #3c393d;
+}
+.parrafo{
+  text-align: justify;
+  font-family: 'colaboratelightregular';
+  font-size: 13px;
+  color: #3c393d;
+}
+.column1{
+  float: left;
+  background: url(images/bg_bloque.png) no-repeat;
+  width: 209px;
+  height: 217px;
+  padding: 10px 0px 0px 10px;
+}
+.column1_title{
+  font-size: 17px;
+  color: #4e4e4e;
+  font-family: 'colaboratelightregular';
+  margin: 10px 0px 20px 0px;
+}
+.marg{
+  margin: 0px 0px 0px 10px;
+}
+.column2{
+  margin: 15px 0px 0px 0px;
+  width: 270px;
+  float: left;
+  height: auto;
+  text-align: center;
+}
+.column3{
+  margin: 15px 0px 0px 0px;
+  width: 170px;
+  float: left;
+  height: auto;
+}
+.column4{
+  margin: 15px 0px 0px 0px;
+  width: 290px;
+  float: left;
+  height: auto;
+  text-align: right;
+}
+.column5{
+  margin: 15px 0px 0px 0px;
+  width: 150px;
+  float: left;
+  height: auto;
+  text-align: right;
+}
+.field1{
+  float: left;
+  width: auto;
+  margin: 0px 0px 15px 0px;
+}
+.field1 label{
+  font-family: 'colaboratelightregular';
+  font-size: 19px;
+  width: 119px;
+  text-align: right;
+  display: block;
+  margin: 10px 10px 0px 0px;
+  color: #4e4e4e;
+}
+.field1 input{
+  background: url(images/bg_input.png) no-repeat;
+  width: 291px;
+  height: 38px;
+  padding: 5px 10px;
+  font-family: 'colaboratelightregular';
+  font-size: 15px;
+  border: 0 none;
+  color: #4e4e4e;
+}
+.field1 textarea{
+  background: url(images/bg_textarea.png) no-repeat;
+  font-family: 'colaboratelightregular';
+  font-size: 15px;
+  border: 0 none;
+  width: 291px;
+  padding: 10px 10px;
+  height: 135px;
+  resize: none;
+  color: #4e4e4e;
+}
+.text .btn_Enviar{
+  text-align: center;
+  color: #fff;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 12px;
+  background: url(images/bg_button.png) no-repeat;
+  display: block;
+  width: 187px;
+  height: 40px;
+  border: 0 none;
+  position: absolute;
+  right: 50px;
+  cursor: pointer;
+}
+.cont_btn{
+  display: block;
+  height: 45px;
+}
+
+@media screen and (max-width:801px){
+            .class_home{
+              background: url(../images/banner_home_800.jpg) no-repeat;
+              width: 100%;
+              height: 800px;
+              z-index: 1;
+            }
+            .class_beneficios{
+              background: url(../images/banner_beneficios_800.jpg) no-repeat;
+              width: 100%;
+             height: 800px;
+              z-index: 1;
+            }
+            .class_resenia{
+              background: url(../images/banner_resena_800.jpg) no-repeat;
+              width: 100%;
+              height: 800px;
+              z-index: 1;
+            }
+            .class_plan_estudios{
+              background: url(../images/banner_plan_estudios_800.jpg) no-repeat;
+              width: 100%;
+              height: 800px;
+              z-index: 1;
+            }
+            .class_contactanos{
+              background: url(../images/banner_contactenos_800.jpg) no-repeat;
+              width: 100%;
+              height: 800px;
+              z-index: 1;
+            } 
+            .cont_center{
+              margin: 0 auto;
+              width: 100%;
+              display: block;
+              position: relative;
+              height: auto;
+            } 
+            .cont_center2{
+              margin: 0 auto;
+              width: 100%;
+              display: block;
+              position: relative;
+              overflow: hidden;
+              height: auto;
+            }
+            #bg_logo{
+              background: url(images/logo_institut2.png) no-repeat;
+              width: 117px;
+              height: 68px;
+              position: absolute;
+              left: 0px;
+              top: 0px;
+              z-index: 6;
+            }
+            #bg_logo a:link, #bg_logo a:visited, #bg_logo a:active, #bg_logo a:hover{
+              display: block;
+              width: 117px;
+              height: 68px;
+              text-decoration: none;
+            }                   
+}

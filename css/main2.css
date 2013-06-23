@@ -1,0 +1,30 @@
+.class_home{
+              background: url(../images/banner_home_800.jpg) no-repeat;
+              width: 100%;
+              height: 800px;
+              z-index: 1;
+            }
+            .class_beneficios{
+              background: url(../images/banner_beneficios_800.jpg) no-repeat;
+              width: 100%;
+             height: 800px;
+              z-index: 1;
+            }
+            .class_resenia{
+              background: url(../images/banner_resena_800.jpg) no-repeat;
+              width: 100%;
+              height: 800px;
+              z-index: 1;
+            }
+            .class_plan_estudios{
+              background: url(../images/banner_plan_estudios_800.jpg) no-repeat;
+              width: 100%;
+              height: 800px;
+              z-index: 1;
+            }
+            .class_contactanos{
+              background: url(../images/banner_contactenos_800.jpg) no-repeat;
+              width: 100%;
+              height: 800px;
+              z-index: 1;
+            }   
